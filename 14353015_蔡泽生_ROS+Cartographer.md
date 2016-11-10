@@ -56,7 +56,7 @@
 >git clone https://github.com/hitcm/cartographer_ros.git  
 
 下载到catkin_ws下面的src文件夹下,然后到catkin_ws下面运行catkin_make即可:
-![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_1.png);
+![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_1.png);  
 这里也需要等待一段时间；  
   
 4.下载2D数据：
