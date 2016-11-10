@@ -49,16 +49,17 @@
 >ninja test  
 >sudo ninja install     
 
-这里在ninja的时候会花费很长的一段时间；(= =)
+这里在ninja的时候会花费很长的一段时间；   
+
 
 3.安装cartographer_ros：  
 使用
 >git clone https://github.com/hitcm/cartographer_ros.git  
 
 下载到catkin_ws下面的src文件夹下,然后到catkin_ws下面运行catkin_make即可:
-![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_1.png);  
-这里也需要等待一段时间；  
-  
+![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_1.png);
+这里也需要等待一段时间，主要原因就是虚拟机内存的问题，调到4GB后运行很快；   
+![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_5.png);  
 4.下载2D数据：
 >https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag 
 
@@ -75,7 +76,7 @@
 
 5.运行结果：  
 ![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_3.png);  
-![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_4.png);  
-因为卡在了第三步的67%的地方，所以这里图片显示的有点问题，但是感觉至应该是安装成功了的；
+![Image text](https://raw.githubusercontent.com/smie14353015/ES2016_14353015/master/img-folder/img3_6.png);  
+这里可以看出安装是成功的了，主要原因是虚拟机内存问题= = ；
 
 
